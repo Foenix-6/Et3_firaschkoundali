@@ -1,0 +1,911 @@
+\hypertarget{utilitaire_8c}{}\section{utilitaire.\+c File Reference}
+\label{utilitaire_8c}\index{utilitaire.\+c@{utilitaire.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\\*
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}utilitaire.\+h\char`\"{}}\\*
+Include dependency graph for utilitaire.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{utilitaire_8c_a9f0f8886c9c3e6e8469cb1a24a8c9ed6}{init\+Textviep1} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the text T . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_aa94706beac591b2437d6e27e8b1a6551}{load\+Fontviep1} (\hyperlink{structText}{Text} $\ast$T, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em To load the font T . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a8876655d6513fd06f7c4a3d07f7d92e3}{update\+\_\+viep1} (\hyperlink{structText}{Text} $\ast$T, int $\ast$vies, \hyperlink{structcollision}{collision} col)
+\begin{DoxyCompactList}\small\item\em To update vie . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a773161d7c59e95006ab9da2b216c0db3}{displayviep1} (\hyperlink{structText}{Text} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display life . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a865dc044acaf6977b1104b40d1ca9971}{free\+Textviep1} (\hyperlink{structText}{Text} T)
+\begin{DoxyCompactList}\small\item\em To free text vie . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_ad140cfd864e9a32a4209627b2c4388dd}{init\+Textviep2} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the text T . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_a14b318435a12ec6e651f120e034993fe}{load\+Fontviep2} (\hyperlink{structText}{Text} $\ast$T, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em To load the font T . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a9601e16efa9686e1f560ef5a4a4727bf}{update\+\_\+viep2} (\hyperlink{structText}{Text} $\ast$T, int $\ast$vies, \hyperlink{structcollision}{collision} col)
+\begin{DoxyCompactList}\small\item\em To update vie . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_aefc12fb9d73f6f06d60d1e764a1e12db}{displayviep2} (\hyperlink{structText}{Text} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display life . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a03165062187b615ea2c14322e49bac5d}{free\+Textviep2} (\hyperlink{structText}{Text} T)
+\begin{DoxyCompactList}\small\item\em To free text vie . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a5929c26a66049460dc58b8c92a6d0b2f}{Timer} (int $\ast$tempsdebut)
+\begin{DoxyCompactList}\small\item\em To count \hyperlink{structTime}{Time} . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}{inittemps} (\hyperlink{structTime}{Time} $\ast$t)
+\begin{DoxyCompactList}\small\item\em To initialize the time . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_ae326325c6cbb8e991873fc3da6a8265e}{init\+Texttime} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the text T . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_abf80670169d96288d8a4b673ad90a80a}{load\+Fonttime} (\hyperlink{structText}{Text} $\ast$T, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em To load the font T . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_abc558b87e2e48a9f354536407ee6abbd}{update\+\_\+time} (\hyperlink{structTime}{Time} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To update time . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_aeaf577c70c6195dd63b6424c46025020}{displaytime} (\hyperlink{structTime}{Time} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display time . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a1aea230c66513887e2a8dba8b3d2d075}{free\+Texttime} (\hyperlink{structText}{Text} T)
+\begin{DoxyCompactList}\small\item\em To free text time . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_a55245cb1f67d5bd884e547b37bd4d1b3}{init\+Textscorep1} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the text T . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_a51c7c5c649ffa053546af592ad26fe9b}{load\+Fontscorep1} (\hyperlink{structText}{Text} $\ast$T, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em To load the font T . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a43d377ba6c658485c2058b8c4feafc45}{update\+\_\+scorep1} (\hyperlink{structText}{Text} $\ast$T, int $\ast$score, \hyperlink{structcollision}{collision} col)
+\begin{DoxyCompactList}\small\item\em To update score . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a82eb1d475b86a63e03adccb3220d901a}{displayscorep1} (\hyperlink{structText}{Text} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display score . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a54559142e76216168931e021ff6e4c11}{free\+Textscorep1} (\hyperlink{structText}{Text} T)
+\begin{DoxyCompactList}\small\item\em To free text score. \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_a45b667d61b2ed92906aa25efcba9c5a3}{init\+Textscorep2} (\hyperlink{structText}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the text T . \end{DoxyCompactList}\item 
+int \hyperlink{utilitaire_8c_a47f18f3dfebbf72ac94e1ab431f2212b}{load\+Fontscorep2} (\hyperlink{structText}{Text} $\ast$T, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em To load the font T . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_ad8da31bfa2e50fc4e771bfad1d769c95}{update\+\_\+scorep2} (\hyperlink{structText}{Text} $\ast$T, int $\ast$score, \hyperlink{structcollision}{collision} col)
+\begin{DoxyCompactList}\small\item\em To update score . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a885861529ca9ba36299b69d3fa6f3076}{displayscorep2} (\hyperlink{structText}{Text} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display score . \end{DoxyCompactList}\item 
+void \hyperlink{utilitaire_8c_a5321d82b1f101582a7fceef97065b9c6}{free\+Textscorep2} (\hyperlink{structText}{Text} T)
+\begin{DoxyCompactList}\small\item\em To free text score. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{utilitaire.\+c@{utilitaire.\+c}!displayscorep1@{displayscorep1}}
+\index{displayscorep1@{displayscorep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{displayscorep1(\+Text T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displayscorep1(Text T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displayscorep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a82eb1d475b86a63e03adccb3220d901a}{}\label{utilitaire_8c_a82eb1d475b86a63e03adccb3220d901a}
+
+
+To display score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+{\em screen} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{utilitaire_8c_a82eb1d475b86a63e03adccb3220d901a_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!displayscorep2@{displayscorep2}}
+\index{displayscorep2@{displayscorep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{displayscorep2(\+Text T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displayscorep2(Text T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displayscorep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a885861529ca9ba36299b69d3fa6f3076}{}\label{utilitaire_8c_a885861529ca9ba36299b69d3fa6f3076}
+
+
+To display score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+{\em screen} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!displaytime@{displaytime}}
+\index{displaytime@{displaytime}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{displaytime(\+Time T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displaytime(Time T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displaytime (
+\begin{DoxyParamCaption}
+\item[{{\bf Time}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_aeaf577c70c6195dd63b6424c46025020}{}\label{utilitaire_8c_aeaf577c70c6195dd63b6424c46025020}
+
+
+To display time . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of time. \\
+\hline
+{\em screen} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!displayviep1@{displayviep1}}
+\index{displayviep1@{displayviep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{displayviep1(\+Text T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displayviep1(Text T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displayviep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a773161d7c59e95006ab9da2b216c0db3}{}\label{utilitaire_8c_a773161d7c59e95006ab9da2b216c0db3}
+
+
+To display life . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+{\em screen} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{utilitaire_8c_a773161d7c59e95006ab9da2b216c0db3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!displayviep2@{displayviep2}}
+\index{displayviep2@{displayviep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{displayviep2(\+Text T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displayviep2(Text T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displayviep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_aefc12fb9d73f6f06d60d1e764a1e12db}{}\label{utilitaire_8c_aefc12fb9d73f6f06d60d1e764a1e12db}
+
+
+To display life . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+{\em screen} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!free\+Textscorep1@{free\+Textscorep1}}
+\index{free\+Textscorep1@{free\+Textscorep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{free\+Textscorep1(\+Text T)}{freeTextscorep1(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Textscorep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a54559142e76216168931e021ff6e4c11}{}\label{utilitaire_8c_a54559142e76216168931e021ff6e4c11}
+
+
+To free text score. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!free\+Textscorep2@{free\+Textscorep2}}
+\index{free\+Textscorep2@{free\+Textscorep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{free\+Textscorep2(\+Text T)}{freeTextscorep2(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Textscorep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a5321d82b1f101582a7fceef97065b9c6}{}\label{utilitaire_8c_a5321d82b1f101582a7fceef97065b9c6}
+
+
+To free text score. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!free\+Texttime@{free\+Texttime}}
+\index{free\+Texttime@{free\+Texttime}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{free\+Texttime(\+Text T)}{freeTexttime(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Texttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a1aea230c66513887e2a8dba8b3d2d075}{}\label{utilitaire_8c_a1aea230c66513887e2a8dba8b3d2d075}
+
+
+To free text time . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!free\+Textviep1@{free\+Textviep1}}
+\index{free\+Textviep1@{free\+Textviep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{free\+Textviep1(\+Text T)}{freeTextviep1(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Textviep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a865dc044acaf6977b1104b40d1ca9971}{}\label{utilitaire_8c_a865dc044acaf6977b1104b40d1ca9971}
+
+
+To free text vie . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!free\+Textviep2@{free\+Textviep2}}
+\index{free\+Textviep2@{free\+Textviep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{free\+Textviep2(\+Text T)}{freeTextviep2(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Textviep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a03165062187b615ea2c14322e49bac5d}{}\label{utilitaire_8c_a03165062187b615ea2c14322e49bac5d}
+
+
+To free text vie . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{utilitaire.\+c@{utilitaire.\+c}!inittemps@{inittemps}}
+\index{inittemps@{inittemps}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{inittemps(\+Time $\ast$t)}{inittemps(Time *t)}}]{\setlength{\rightskip}{0pt plus 5cm}void inittemps (
+\begin{DoxyParamCaption}
+\item[{{\bf Time} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}{}\label{utilitaire_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}
+
+
+To initialize the time . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & the time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{utilitaire_8c_a2bbd14a997f1fa7fd246f24ead3b50f8_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!init\+Textscorep1@{init\+Textscorep1}}
+\index{init\+Textscorep1@{init\+Textscorep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{init\+Textscorep1(\+Text $\ast$\+T)}{initTextscorep1(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Textscorep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a55245cb1f67d5bd884e547b37bd4d1b3}{}\label{utilitaire_8c_a55245cb1f67d5bd884e547b37bd4d1b3}
+
+
+To initialize the text T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int To update score . 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+{\em col} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{utilitaire_8c_a55245cb1f67d5bd884e547b37bd4d1b3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_a55245cb1f67d5bd884e547b37bd4d1b3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!init\+Textscorep2@{init\+Textscorep2}}
+\index{init\+Textscorep2@{init\+Textscorep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{init\+Textscorep2(\+Text $\ast$\+T)}{initTextscorep2(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Textscorep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a45b667d61b2ed92906aa25efcba9c5a3}{}\label{utilitaire_8c_a45b667d61b2ed92906aa25efcba9c5a3}
+
+
+To initialize the text T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{utilitaire_8c_a45b667d61b2ed92906aa25efcba9c5a3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_a45b667d61b2ed92906aa25efcba9c5a3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!init\+Texttime@{init\+Texttime}}
+\index{init\+Texttime@{init\+Texttime}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{init\+Texttime(\+Text $\ast$\+T)}{initTexttime(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Texttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_ae326325c6cbb8e991873fc3da6a8265e}{}\label{utilitaire_8c_ae326325c6cbb8e991873fc3da6a8265e}
+
+
+To initialize the text T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{utilitaire_8c_ae326325c6cbb8e991873fc3da6a8265e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{utilitaire_8c_ae326325c6cbb8e991873fc3da6a8265e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!init\+Textviep1@{init\+Textviep1}}
+\index{init\+Textviep1@{init\+Textviep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{init\+Textviep1(\+Text $\ast$\+T)}{initTextviep1(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Textviep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a9f0f8886c9c3e6e8469cb1a24a8c9ed6}{}\label{utilitaire_8c_a9f0f8886c9c3e6e8469cb1a24a8c9ed6}
+
+
+To initialize the text T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{utilitaire_8c_a9f0f8886c9c3e6e8469cb1a24a8c9ed6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{utilitaire_8c_a9f0f8886c9c3e6e8469cb1a24a8c9ed6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!init\+Textviep2@{init\+Textviep2}}
+\index{init\+Textviep2@{init\+Textviep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{init\+Textviep2(\+Text $\ast$\+T)}{initTextviep2(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Textviep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_ad140cfd864e9a32a4209627b2c4388dd}{}\label{utilitaire_8c_ad140cfd864e9a32a4209627b2c4388dd}
+
+
+To initialize the text T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{utilitaire_8c_ad140cfd864e9a32a4209627b2c4388dd_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{utilitaire_8c_ad140cfd864e9a32a4209627b2c4388dd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!load\+Fontscorep1@{load\+Fontscorep1}}
+\index{load\+Fontscorep1@{load\+Fontscorep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fontscorep1(\+Text $\ast$\+T, char $\ast$path)}{loadFontscorep1(Text *T, char *path)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fontscorep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a51c7c5c649ffa053546af592ad26fe9b}{}\label{utilitaire_8c_a51c7c5c649ffa053546af592ad26fe9b}
+
+
+To load the font T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em path} & the font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_a51c7c5c649ffa053546af592ad26fe9b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!load\+Fontscorep2@{load\+Fontscorep2}}
+\index{load\+Fontscorep2@{load\+Fontscorep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fontscorep2(\+Text $\ast$\+T, char $\ast$path)}{loadFontscorep2(Text *T, char *path)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fontscorep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a47f18f3dfebbf72ac94e1ab431f2212b}{}\label{utilitaire_8c_a47f18f3dfebbf72ac94e1ab431f2212b}
+
+
+To load the font T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em path} & the font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_a47f18f3dfebbf72ac94e1ab431f2212b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!load\+Fonttime@{load\+Fonttime}}
+\index{load\+Fonttime@{load\+Fonttime}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fonttime(\+Text $\ast$\+T, char $\ast$path)}{loadFonttime(Text *T, char *path)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fonttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_abf80670169d96288d8a4b673ad90a80a}{}\label{utilitaire_8c_abf80670169d96288d8a4b673ad90a80a}
+
+
+To load the font T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em path} & the font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{utilitaire_8c_abf80670169d96288d8a4b673ad90a80a_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!load\+Fontviep1@{load\+Fontviep1}}
+\index{load\+Fontviep1@{load\+Fontviep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fontviep1(\+Text $\ast$\+T, char $\ast$path)}{loadFontviep1(Text *T, char *path)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fontviep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_aa94706beac591b2437d6e27e8b1a6551}{}\label{utilitaire_8c_aa94706beac591b2437d6e27e8b1a6551}
+
+
+To load the font T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em path} & the font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_aa94706beac591b2437d6e27e8b1a6551_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!load\+Fontviep2@{load\+Fontviep2}}
+\index{load\+Fontviep2@{load\+Fontviep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fontviep2(\+Text $\ast$\+T, char $\ast$path)}{loadFontviep2(Text *T, char *path)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fontviep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a14b318435a12ec6e651f120e034993fe}{}\label{utilitaire_8c_a14b318435a12ec6e651f120e034993fe}
+
+
+To load the font T . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em path} & the font \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{utilitaire_8c_a14b318435a12ec6e651f120e034993fe_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!Timer@{Timer}}
+\index{Timer@{Timer}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{Timer(int $\ast$tempsdebut)}{Timer(int *tempsdebut)}}]{\setlength{\rightskip}{0pt plus 5cm}void Timer (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tempsdebut}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a5929c26a66049460dc58b8c92a6d0b2f}{}\label{utilitaire_8c_a5929c26a66049460dc58b8c92a6d0b2f}
+
+
+To count \hyperlink{structTime}{Time} . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tempsdebut} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{utilitaire_8c_a5929c26a66049460dc58b8c92a6d0b2f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!update\+\_\+scorep1@{update\+\_\+scorep1}}
+\index{update\+\_\+scorep1@{update\+\_\+scorep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+scorep1(\+Text $\ast$\+T, int $\ast$score, collision col)}{update_scorep1(Text *T, int *score, collision col)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+scorep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{int $\ast$}]{score, }
+\item[{{\bf collision}}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a43d377ba6c658485c2058b8c4feafc45}{}\label{utilitaire_8c_a43d377ba6c658485c2058b8c4feafc45}
+
+
+To update score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+{\em col} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{utilitaire_8c_a43d377ba6c658485c2058b8c4feafc45_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!update\+\_\+scorep2@{update\+\_\+scorep2}}
+\index{update\+\_\+scorep2@{update\+\_\+scorep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+scorep2(\+Text $\ast$\+T, int $\ast$score, collision col)}{update_scorep2(Text *T, int *score, collision col)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+scorep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{int $\ast$}]{score, }
+\item[{{\bf collision}}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_ad8da31bfa2e50fc4e771bfad1d769c95}{}\label{utilitaire_8c_ad8da31bfa2e50fc4e771bfad1d769c95}
+
+
+To update score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of score. \\
+\hline
+{\em col} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{utilitaire_8c_ad8da31bfa2e50fc4e771bfad1d769c95_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!update\+\_\+time@{update\+\_\+time}}
+\index{update\+\_\+time@{update\+\_\+time}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+time(\+Time $\ast$\+T)}{update_time(Time *T)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+time (
+\begin{DoxyParamCaption}
+\item[{{\bf Time} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_abc558b87e2e48a9f354536407ee6abbd}{}\label{utilitaire_8c_abc558b87e2e48a9f354536407ee6abbd}
+
+
+To update time . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of time. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{utilitaire_8c_abc558b87e2e48a9f354536407ee6abbd_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!update\+\_\+viep1@{update\+\_\+viep1}}
+\index{update\+\_\+viep1@{update\+\_\+viep1}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+viep1(\+Text $\ast$\+T, int $\ast$vies, collision col)}{update_viep1(Text *T, int *vies, collision col)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+viep1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{int $\ast$}]{vies, }
+\item[{{\bf collision}}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a8876655d6513fd06f7c4a3d07f7d92e3}{}\label{utilitaire_8c_a8876655d6513fd06f7c4a3d07f7d92e3}
+
+
+To update vie . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+{\em vie} & nomber of life. \\
+\hline
+{\em col} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{utilitaire_8c_a8876655d6513fd06f7c4a3d07f7d92e3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{utilitaire.\+c@{utilitaire.\+c}!update\+\_\+viep2@{update\+\_\+viep2}}
+\index{update\+\_\+viep2@{update\+\_\+viep2}!utilitaire.\+c@{utilitaire.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+viep2(\+Text $\ast$\+T, int $\ast$vies, collision col)}{update_viep2(Text *T, int *vies, collision col)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+viep2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{int $\ast$}]{vies, }
+\item[{{\bf collision}}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{utilitaire_8c_a9601e16efa9686e1f560ef5a4a4727bf}{}\label{utilitaire_8c_a9601e16efa9686e1f560ef5a4a4727bf}
+
+
+To update vie . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text of vie. \\
+\hline
+{\em vie} & nomber of life. \\
+\hline
+{\em col} & . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{utilitaire_8c_a9601e16efa9686e1f560ef5a4a4727bf_icgraph}
+\end{center}
+\end{figure}
+
+

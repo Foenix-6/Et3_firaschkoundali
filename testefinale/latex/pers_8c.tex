@@ -1,0 +1,533 @@
+\hypertarget{pers_8c}{}\section{pers.\+c File Reference}
+\label{pers_8c}\index{pers.\+c@{pers.\+c}}
+
+
+Testing Program.  
+
+
+{\ttfamily \#include \char`\"{}pers.\+h\char`\"{}}\\*
+Include dependency graph for pers.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pers_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{pers_8c_ac5ec830e2f41544edaf6caad25cca3fa}{initbackground} (\hyperlink{structimage}{image} $\ast$background)
+\begin{DoxyCompactList}\small\item\em To initialize the background background . \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_a5bdcb2a0ef37d39391dcb65810bca8d8}{initgameover} (\hyperlink{structimage}{image} $\ast$gameover)
+\begin{DoxyCompactList}\small\item\em To initialize the image gameover . \end{DoxyCompactList}\item 
+int \hyperlink{pers_8c_a9d18966b3d27827d37895d21d82b67e8}{initvie2} (\hyperlink{structText}{Text} $\ast$textevie, int $\ast$vie)
+\begin{DoxyCompactList}\small\item\em To initialize the life . \end{DoxyCompactList}\item 
+int \hyperlink{pers_8c_a85a9538b0b49ed9c18ae1f4b0b629c5c}{initscore2} (\hyperlink{structText}{Text} $\ast$textescore, int $\ast$score)
+\begin{DoxyCompactList}\small\item\em To initialize the score . \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_ae2c98fbc978d9bd667248e5c82709db3}{initperso2} (\hyperlink{structpers}{pers} $\ast$p)
+\begin{DoxyCompactList}\small\item\em To initialize the pers p. \end{DoxyCompactList}\item 
+int \hyperlink{pers_8c_a8e07134b10e7623c8a545ec6710d378b}{initvie1} (\hyperlink{structText}{Text} $\ast$textevie, int $\ast$vie)
+\begin{DoxyCompactList}\small\item\em To initialize the life . \end{DoxyCompactList}\item 
+int \hyperlink{pers_8c_a0d9c65d04ba25f85f85ef90893b268b8}{initscore1} (\hyperlink{structText}{Text} $\ast$textescore, int $\ast$score)
+\begin{DoxyCompactList}\small\item\em To initialize the score . \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_ab0270cd488d8e4d243920a717ea20a5d}{initperso1} (\hyperlink{structpers}{pers} $\ast$p)
+\begin{DoxyCompactList}\small\item\em To initialize the pers p1. \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_a80686d775976ea0644cb36e2f2aa3496}{initinput} (\hyperlink{structinput}{input} $\ast$in)
+\begin{DoxyCompactList}\small\item\em To initialize the input . \end{DoxyCompactList}\item 
+\hyperlink{structinput}{input} {\bfseries getinput} (int $\ast$done, \hyperlink{structinput}{input} in)\hypertarget{pers_8c_a7214aad146b64791f5b5861d448ef61a}{}\label{pers_8c_a7214aad146b64791f5b5861d448ef61a}
+
+\item 
+void \hyperlink{pers_8c_a561f27a91d81213da6a4525b19f15199}{updateperso1} (\hyperlink{structpers}{pers} $\ast$p, \hyperlink{structinput}{input} in, \hyperlink{structcollision}{collision} $\ast$col)
+\begin{DoxyCompactList}\small\item\em To update the pers p1 . \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_a3341f082d3873c90ca3ce2ec43f4be6a}{updateperso2} (\hyperlink{structpers}{pers} $\ast$p, \hyperlink{structinput}{input} in, \hyperlink{structcollision}{collision} $\ast$col)
+\begin{DoxyCompactList}\small\item\em To update the pers p2 . \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_ae21c24bbd1324afca4078aa3e159e7ea}{dipslayperso} (\hyperlink{structpers}{pers} p, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display the pers. \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_a31a011d00a257a5b7747faf0f39214af}{displaybackground} (\hyperlink{structimage}{image} background, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display the background. \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_af2a1df5255dbe633ffd06abc1f89a4b4}{displaygameover} (int $\ast$done, int vie, \hyperlink{structimage}{image} gameover, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em To display the gameover. \end{DoxyCompactList}\item 
+void \hyperlink{pers_8c_abfeb5dfb3df9d00fe7cd9374e25fd52c}{freebackground} (\hyperlink{structimage}{image} background)
+\begin{DoxyCompactList}\small\item\em To free background. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Testing Program. 
+
+\begin{DoxyAuthor}{Author}
+C Team 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+Apr 01, 2020
+\end{DoxyDate}
+Testing pers 
+
+\subsection{Function Documentation}
+\index{pers.\+c@{pers.\+c}!dipslayperso@{dipslayperso}}
+\index{dipslayperso@{dipslayperso}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{dipslayperso(pers p, S\+D\+L\+\_\+\+Surface $\ast$screen)}{dipslayperso(pers p, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void dipslayperso (
+\begin{DoxyParamCaption}
+\item[{{\bf pers}}]{p, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_ae21c24bbd1324afca4078aa3e159e7ea}{}\label{pers_8c_ae21c24bbd1324afca4078aa3e159e7ea}
+
+
+To display the pers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the pers \\
+\hline
+{\em screen} & the screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{pers_8c_ae21c24bbd1324afca4078aa3e159e7ea_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!displaybackground@{displaybackground}}
+\index{displaybackground@{displaybackground}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{displaybackground(image background, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displaybackground(image background, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displaybackground (
+\begin{DoxyParamCaption}
+\item[{{\bf image}}]{background, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a31a011d00a257a5b7747faf0f39214af}{}\label{pers_8c_a31a011d00a257a5b7747faf0f39214af}
+
+
+To display the background. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em background} & the background \\
+\hline
+{\em screen} & the screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!displaygameover@{displaygameover}}
+\index{displaygameover@{displaygameover}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{displaygameover(int $\ast$done, int vie, image gameover, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displaygameover(int *done, int vie, image gameover, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displaygameover (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{done, }
+\item[{int}]{vie, }
+\item[{{\bf image}}]{gameover, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_af2a1df5255dbe633ffd06abc1f89a4b4}{}\label{pers_8c_af2a1df5255dbe633ffd06abc1f89a4b4}
+
+
+To display the gameover. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gameover} & the image of gameover \\
+\hline
+{\em screen} & the screen \\
+\hline
+{\em vie} & the number of life \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!freebackground@{freebackground}}
+\index{freebackground@{freebackground}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{freebackground(image background)}{freebackground(image background)}}]{\setlength{\rightskip}{0pt plus 5cm}void freebackground (
+\begin{DoxyParamCaption}
+\item[{{\bf image}}]{background}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_abfeb5dfb3df9d00fe7cd9374e25fd52c}{}\label{pers_8c_abfeb5dfb3df9d00fe7cd9374e25fd52c}
+
+
+To free background. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em background} & the background. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!initbackground@{initbackground}}
+\index{initbackground@{initbackground}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initbackground(image $\ast$background)}{initbackground(image *background)}}]{\setlength{\rightskip}{0pt plus 5cm}void initbackground (
+\begin{DoxyParamCaption}
+\item[{{\bf image} $\ast$}]{background}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_ac5ec830e2f41544edaf6caad25cca3fa}{}\label{pers_8c_ac5ec830e2f41544edaf6caad25cca3fa}
+
+
+To initialize the background background . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em background} & the background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!initgameover@{initgameover}}
+\index{initgameover@{initgameover}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initgameover(image $\ast$gameover)}{initgameover(image *gameover)}}]{\setlength{\rightskip}{0pt plus 5cm}void initgameover (
+\begin{DoxyParamCaption}
+\item[{{\bf image} $\ast$}]{gameover}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a5bdcb2a0ef37d39391dcb65810bca8d8}{}\label{pers_8c_a5bdcb2a0ef37d39391dcb65810bca8d8}
+
+
+To initialize the image gameover . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gameover} & the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!initinput@{initinput}}
+\index{initinput@{initinput}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initinput(input $\ast$in)}{initinput(input *in)}}]{\setlength{\rightskip}{0pt plus 5cm}void initinput (
+\begin{DoxyParamCaption}
+\item[{{\bf input} $\ast$}]{in}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a80686d775976ea0644cb36e2f2aa3496}{}\label{pers_8c_a80686d775976ea0644cb36e2f2aa3496}
+
+
+To initialize the input . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & the input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{pers.\+c@{pers.\+c}!initperso1@{initperso1}}
+\index{initperso1@{initperso1}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initperso1(pers $\ast$p)}{initperso1(pers *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void initperso1 (
+\begin{DoxyParamCaption}
+\item[{{\bf pers} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_ab0270cd488d8e4d243920a717ea20a5d}{}\label{pers_8c_ab0270cd488d8e4d243920a717ea20a5d}
+
+
+To initialize the pers p1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the pers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pers_8c_ab0270cd488d8e4d243920a717ea20a5d_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!initperso2@{initperso2}}
+\index{initperso2@{initperso2}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initperso2(pers $\ast$p)}{initperso2(pers *p)}}]{\setlength{\rightskip}{0pt plus 5cm}void initperso2 (
+\begin{DoxyParamCaption}
+\item[{{\bf pers} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_ae2c98fbc978d9bd667248e5c82709db3}{}\label{pers_8c_ae2c98fbc978d9bd667248e5c82709db3}
+
+
+To initialize the pers p. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the pers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pers_8c_ae2c98fbc978d9bd667248e5c82709db3_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!initscore1@{initscore1}}
+\index{initscore1@{initscore1}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initscore1(\+Text $\ast$textescore, int $\ast$score)}{initscore1(Text *textescore, int *score)}}]{\setlength{\rightskip}{0pt plus 5cm}int initscore1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{textescore, }
+\item[{int $\ast$}]{score}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a0d9c65d04ba25f85f85ef90893b268b8}{}\label{pers_8c_a0d9c65d04ba25f85f85ef90893b268b8}
+
+
+To initialize the score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em score} & the number of score \\
+\hline
+{\em textescore} & the text of score \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pers_8c_a0d9c65d04ba25f85f85ef90893b268b8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{pers_8c_a0d9c65d04ba25f85f85ef90893b268b8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!initscore2@{initscore2}}
+\index{initscore2@{initscore2}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initscore2(\+Text $\ast$textescore, int $\ast$score)}{initscore2(Text *textescore, int *score)}}]{\setlength{\rightskip}{0pt plus 5cm}int initscore2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{textescore, }
+\item[{int $\ast$}]{score}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a85a9538b0b49ed9c18ae1f4b0b629c5c}{}\label{pers_8c_a85a9538b0b49ed9c18ae1f4b0b629c5c}
+
+
+To initialize the score . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em score} & the number of score \\
+\hline
+{\em textescore} & the text of score \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pers_8c_a85a9538b0b49ed9c18ae1f4b0b629c5c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{pers_8c_a85a9538b0b49ed9c18ae1f4b0b629c5c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!initvie1@{initvie1}}
+\index{initvie1@{initvie1}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initvie1(\+Text $\ast$textevie, int $\ast$vie)}{initvie1(Text *textevie, int *vie)}}]{\setlength{\rightskip}{0pt plus 5cm}int initvie1 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{textevie, }
+\item[{int $\ast$}]{vie}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a8e07134b10e7623c8a545ec6710d378b}{}\label{pers_8c_a8e07134b10e7623c8a545ec6710d378b}
+
+
+To initialize the life . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vie} & the number of life \\
+\hline
+{\em textevie} & the text of life \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{pers_8c_a8e07134b10e7623c8a545ec6710d378b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{pers_8c_a8e07134b10e7623c8a545ec6710d378b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!initvie2@{initvie2}}
+\index{initvie2@{initvie2}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{initvie2(\+Text $\ast$textevie, int $\ast$vie)}{initvie2(Text *textevie, int *vie)}}]{\setlength{\rightskip}{0pt plus 5cm}int initvie2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{textevie, }
+\item[{int $\ast$}]{vie}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a9d18966b3d27827d37895d21d82b67e8}{}\label{pers_8c_a9d18966b3d27827d37895d21d82b67e8}
+
+
+To initialize the life . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vie} & the number of life \\
+\hline
+{\em textevie} & the text of life \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{pers_8c_a9d18966b3d27827d37895d21d82b67e8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{pers_8c_a9d18966b3d27827d37895d21d82b67e8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!updateperso1@{updateperso1}}
+\index{updateperso1@{updateperso1}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{updateperso1(pers $\ast$p, input in, collision $\ast$col)}{updateperso1(pers *p, input in, collision *col)}}]{\setlength{\rightskip}{0pt plus 5cm}void updateperso1 (
+\begin{DoxyParamCaption}
+\item[{{\bf pers} $\ast$}]{p, }
+\item[{{\bf input}}]{in, }
+\item[{{\bf collision} $\ast$}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a561f27a91d81213da6a4525b19f15199}{}\label{pers_8c_a561f27a91d81213da6a4525b19f15199}
+
+
+To update the pers p1 . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the pers \\
+\hline
+{\em in} & the input \\
+\hline
+{\em col} & the collision \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{pers_8c_a561f27a91d81213da6a4525b19f15199_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{pers.\+c@{pers.\+c}!updateperso2@{updateperso2}}
+\index{updateperso2@{updateperso2}!pers.\+c@{pers.\+c}}
+\subsubsection[{\texorpdfstring{updateperso2(pers $\ast$p, input in, collision $\ast$col)}{updateperso2(pers *p, input in, collision *col)}}]{\setlength{\rightskip}{0pt plus 5cm}void updateperso2 (
+\begin{DoxyParamCaption}
+\item[{{\bf pers} $\ast$}]{p, }
+\item[{{\bf input}}]{in, }
+\item[{{\bf collision} $\ast$}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{pers_8c_a3341f082d3873c90ca3ce2ec43f4be6a}{}\label{pers_8c_a3341f082d3873c90ca3ce2ec43f4be6a}
+
+
+To update the pers p2 . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the pers \\
+\hline
+{\em in} & the input \\
+\hline
+{\em col} & the collision \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{pers_8c_a3341f082d3873c90ca3ce2ec43f4be6a_cgraph}
+\end{center}
+\end{figure}
+
+
